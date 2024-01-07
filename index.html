@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>RPS</title>
+</head>
+<body>
+    <div class="title">
+        <img src="rock_paper_scissor.jpg" alt="">
+    </div>
+    <div class="Game_container">
+        <div class="computer">
+            <h1>COMPUTER</h1>
+            <button><img src="Rock.png" alt=""></button>
+            <button><img src="Paper.png" alt=""></button>
+            <button><img src="Sissor.png" alt=""></button>
+        </div>
+        <div class="user">
+            <h1>YOU </h1>
+            <button onclick="userData(1)"><img src="Rock.png" alt=""></button>
+            <button onclick="userData(2)"><img src="Paper.png" alt=""></button>
+            <button onclick="userData(3)"><img src="Sissor.png" alt=""></button>
+        </div>
+        <div id="ans" class="ans">
+            <h1 id="answer"></h1>
+        </div>
+
+    </div>
+</body>
+</html>
