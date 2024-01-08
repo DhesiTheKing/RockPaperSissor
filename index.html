@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
     <script src="index.js"></script>
-    <title>RPS</title>
+    <title>RockPaperSissor</title>
 </head>
 <body>
     <div class="title">
@@ -25,9 +26,28 @@
             <button onclick="userData(3)"><img src="Sissor.png" alt=""></button>
         </div>
         <div id="ans" class="ans">
+            <h2>MATCH:<span id="matchCount"></span></h2>
+            <h2>WIN:<span id="winCount"></span></h2>
+            <h2>LOOSE:<span id="looseCount"></span></h2>
+            <h2>TIE:<span id="tieCount"></span></h2>
             <h1 id="answer"></h1>
+            <div class="comAns" id="comAns">
+                <img src="Rock.png" id="c1" alt="">
+                <img src="Paper.png" id="c2" alt="">
+                <img src="Sissor.png" id="c3" alt="">
+            </div>
+            <div class="userAns" id="userAns">
+                <img src="Rock.png" id="u1" alt="">
+                <img src="Paper.png" id="u2" alt="">
+                <img src="Sissor.png" id="u3" alt="">
+            </div>
+        </div>
+        <div class="reset">
+            <button onclick="reset()">RESET</button>
         </div>
 
+
     </div>
+    <a class="me" href="https://dhesitheking.github.io/myweb.com/">DEVELOPER INFO</a>
 </body>
 </html>
