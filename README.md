@@ -14,3 +14,4 @@ docker run -it -d -p 8000:8000 rock-paper-sissor
 ```
 docker compose -f docker-compose-postgres.yml up 
 ```
+Then check localhost:8000
