@@ -10,3 +10,7 @@ https://dhesitheking.github.io/RockPaperSissor/
 docker build -t rock-paper-sissor .
 docker run -it -p 8000:8000 rock-paper-sissor
 ```
+# By Docker compose 
+```
+docker compose -f docker-compose-postgres.yml up 
+```
