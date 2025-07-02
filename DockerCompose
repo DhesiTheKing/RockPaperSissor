@@ -1,0 +1,12 @@
+services:
+  rps1:
+    image: rock-paper-sissor:latest
+    container_name: rps-8000
+    ports:
+      - "8000:8000"
+
+  rps2:
+    image: rock-paper-sissor:latest
+    container_name: rps-8001
+    ports:
+      - "8001:8000"
