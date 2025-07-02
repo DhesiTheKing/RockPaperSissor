@@ -8,7 +8,7 @@ https://dhesitheking.github.io/RockPaperSissor/
 # Run this on your local by docker
 ```
 docker build -t rock-paper-sissor .
-docker run -it -p 8000:8000 rock-paper-sissor
+docker run -it -d -p 8000:8000 rock-paper-sissor
 ```
 # By Docker compose 
 ```
